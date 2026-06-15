@@ -206,17 +206,6 @@ The implementations intentionally share the same strategy rules, but the framewo
 
 The goal is implementation comparison, not perfect bit-level replication.
 
-## Issues Encountered and Fixes
-
-- Git repository was not initialized initially; fixed with `git init`.
-- vectorbt import failed in this environment due numba cache behavior; fixed by setting `NUMBA_DISABLE_JIT=1` in the vectorbt runner.
-- Real EUR/USD data was initially missing; fixed by using ForexSB Historical Data `EURUSD60.csv`.
-- ForexSB CSV had no header; fixed by adding a fallback no-header parser to `data/prepare_eurusd_h1_data.py`.
-- Nautilus installation and API details required package inspection; the runner uses a margin account for FX.
-- Nautilus did not expose a full bar-level equity curve through the low-level report API used here; equity was reconstructed from closed position PnL.
-- MT5 required a manual Strategy Tester run outside the Python/Linux workflow.
-- MT5 screenshot is absent; the exported HTML Strategy Tester report is included.
-
 ## Final Deliverables
 
 - Source code for the vectorbt implementation.
