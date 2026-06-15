@@ -1,0 +1,47 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# OS files
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Large raw market data downloads
+data/raw/*.zip
+data/raw/*.bi5
+
+# MetaTrader 5 temporary tester/cache/report artifacts
+*.opt
+*.fxt
+*.hcc
+*.hst
+*.ticks
+*.tmp.html
+*.tmp.htm
+tester/cache/
+tester/logs/
+MQL5/Logs/
+MQL5/Tester/cache/
+MQL5/Tester/logs/
+
+# Temporary generated report assets only; keep final reports directories tracked by path
+reports/tmp/
+mt5_impl/reports/tmp/
