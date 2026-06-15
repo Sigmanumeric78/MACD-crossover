@@ -1018,3 +1018,172 @@ Run the EA manually in MT5 Strategy Tester using either broker EURUSD history or
 ### Next Step
 
 Stage and commit the project locally, then add a GitHub remote and push when ready.
+
+## PDF Summary Generation - HR Submission Attachment
+
+### Objective
+
+- Generate a short, professional PDF summary suitable for HR/recruitment email attachment.
+- Requested output path: `reports/MACD_Backtesting_Project_Summary.pdf`.
+- Repository URL included in the summary: `https://github.com/Sigmanumeric78/MACD-crossover.git`.
+- Candidate listed as Nitin Chaturvedi for Junior Python Developer - Remote.
+
+### Files Created
+
+- `reports/MACD_Backtesting_Project_Summary.md`
+- `reports/MACD_Backtesting_Project_Summary.pdf`
+
+### Files Modified
+
+- `MEMORY.md`
+
+### Implementation Notes
+
+- No strategy logic was changed.
+- MT5 was not rerun.
+- No screenshot was fabricated.
+- PDF content is factual and concise, with a 3-page layout.
+- A Markdown fallback summary was created first because no lightweight PDF library was available.
+- PDF was generated with a small standard-library Python PDF writer, so no dependency installation was required.
+
+### PDF Tooling Check
+
+- `reportlab`: not installed.
+- `fpdf`: not installed.
+- `matplotlib`: import failed due missing `PIL`.
+- Fallback used: Markdown summary plus standard-library PDF generation.
+
+### Commands Run
+
+- `cat MEMORY.md`
+- `pwd`
+- `ls -lh reports`
+- `python - <<'PY' ... PY` to check available PDF libraries.
+- `git status --short`
+- `apply_patch` to create `reports/MACD_Backtesting_Project_Summary.md`.
+- `python - <<'PY' ... PY` to generate `reports/MACD_Backtesting_Project_Summary.pdf`.
+- `ls -lh reports/MACD_Backtesting_Project_Summary.pdf reports/MACD_Backtesting_Project_Summary.md`
+- `file reports/MACD_Backtesting_Project_Summary.pdf reports/MACD_Backtesting_Project_Summary.md`
+- `python - <<'PY' ... PY` to verify PDF header, byte size, and page count marker.
+- `git status --short`
+- `apply_patch` to record PDF generation in `MEMORY.md`.
+
+### Verification Results
+
+- PDF created at `reports/MACD_Backtesting_Project_Summary.pdf`.
+- File type: PDF document, version 1.4.
+- Page count: 3 pages.
+- File size: 17,586 bytes.
+- Markdown fallback created at `reports/MACD_Backtesting_Project_Summary.md`.
+
+### Current Status
+
+- PDF generation succeeded.
+- Fallback was used because no PDF library was available.
+- New report files are ready to commit with the project.
+
+## Final README and Submission Push Phase
+
+### Objective
+
+- Perform the final README polish and GitHub push preparation for the take-home submission.
+- Keep strategy logic unchanged.
+- Do not rerun MetaTrader 5 or fabricate screenshots.
+- Keep valid result files and final artifacts tracked.
+
+### Starting State
+
+- Read `MEMORY.md` completely as the project context before making changes.
+- Current branch: `main`.
+- Remote exists: `origin https://github.com/Sigmanumeric78/MACD-crossover.git`.
+- Existing PDF summary found at `reports/MACD_Backtesting_Project_Summary.pdf`.
+- Starting `git status --short` showed `MEMORY.md` modified and the PDF/Markdown summary files untracked from the prior PDF generation step.
+
+### Files Modified So Far
+
+- `README.md`
+- `.gitignore`
+- `MEMORY.md`
+
+### README Final Polish Completed
+
+- Added a `Submission Summary` section near the top.
+- Added a `Final Deliverables` section near the end.
+- Included `reports/MACD_Backtesting_Project_Summary.pdf` in deliverables because the PDF exists.
+- Updated `AI Tool Usage Notes` with more professional wording.
+- Updated `Final Notes` to state that the repository contains the completed implementation, generated reports, and documentation for submission.
+
+### .gitignore Check
+
+- Existing `.gitignore` was already multiline but was missing several requested Python tooling, editor, OS, numba/cache, and MT5 compiled artifact patterns.
+- Updated `.gitignore` with the requested final multiline ignore structure.
+- Final small CSV/report artifacts remain intentionally not ignored.
+
+### Commands Run So Far
+
+- `wc -l MEMORY.md`
+- `sed -n '1,220p' MEMORY.md`
+- `sed -n '221,440p' MEMORY.md`
+- `sed -n '441,660p' MEMORY.md`
+- `sed -n '661,880p' MEMORY.md`
+- `sed -n '881,1120p' MEMORY.md`
+- `sed -n '1,320p' README.md`
+- `sed -n '1,240p' .gitignore`
+- `test -f reports/MACD_Backtesting_Project_Summary.pdf && ls -lh reports/MACD_Backtesting_Project_Summary.pdf || true`
+- `git status --short`
+- `git remote -v`
+- `git branch --show-current`
+- `tail -n 120 MEMORY.md`
+- `find reports -maxdepth 1 -type f -print`
+- `apply_patch` attempt to update README, `.gitignore`, and `MEMORY.md`; first attempt failed because `.gitignore` context did not match exactly.
+- `sed -n '1,260p' .gitignore`
+- `grep -n "Submission Summary\\|Final Deliverables\\|AI Tool Usage Notes\\|Final Notes" README.md`
+- `tail -n 30 MEMORY.md`
+- `apply_patch` to update README, replace `.gitignore`, and append this memory section.
+
+### Final Verification Status
+
+- Final vectorbt rerun succeeded with `Data mode: REAL_CSV`, 6250 rows, 241 entries, 242 exits, 241 trades, total return -0.003863, Sharpe ratio -0.941478, and max drawdown -0.005761.
+- Final Nautilus rerun succeeded with `Data mode: REAL_CSV`, 6250 rows, 6250 bars processed, 241 entries, 241 exits, 241 trades, total return -0.004280, Sharpe ratio -6.103943, and max drawdown -0.005740.
+- MT5 report folder contains `mt5_report.html` and `mt5_results_summary.md`.
+- `mt5_results_summary.md` confirms the screenshot is not included and that the exported HTML Strategy Tester report is available.
+- Cache cleanup removed Python `__pycache__` and `.pyc` artifacts generated by the final reruns.
+- Final cache checks printed no `__pycache__` directories and no `.pyc` files.
+- Final `git status --short` before staging showed modified `.gitignore`, `MEMORY.md`, `README.md`, and untracked PDF summary files from the prior PDF generation step.
+- Final commit command succeeded with message `Finalize README and submission documentation`; final commit hash will be reported in terminal output.
+- Push to `origin` is pending.
+
+### Final Verification Commands Run
+
+- `python vectorbt_impl/run_vectorbt_backtest.py`
+- `python nautilus_impl/run_nautilus_backtest.py`
+- `ls -lh mt5_impl/reports/`
+- `cat mt5_impl/reports/mt5_results_summary.md`
+- `git status --short`
+- `find . -maxdepth 4 -type d -name "__pycache__" -print`
+- `find . -type f -name "*.pyc" -print`
+- `find . -type d -name "__pycache__" -prune -exec rm -rf {} +`
+- `find . -type f -name "*.pyc" -delete`
+- `git add .`
+- `git commit -m "Finalize README and submission documentation"`
+
+### Final Artifacts Confirmed
+
+- `README.md`
+- `.gitignore`
+- `MEMORY.md`
+- `reports/MACD_Backtesting_Project_Summary.md`
+- `reports/MACD_Backtesting_Project_Summary.pdf`
+- `vectorbt_impl/vectorbt_results.csv`
+- `vectorbt_impl/vectorbt_trades.csv`
+- `nautilus_impl/nautilus_results.csv`
+- `nautilus_impl/nautilus_trades.csv`
+- `mt5_impl/reports/mt5_report.html`
+- `mt5_impl/reports/mt5_results_summary.md`
+
+### Commit and Push Readiness
+
+- Repository is ready to stage with `git add .`.
+- Commit message planned: `Finalize README and submission documentation`.
+- Remote `origin` already points to `https://github.com/Sigmanumeric78/MACD-crossover.git`; no new remote should be added.
+- Push target remains the configured `origin` remote on branch `main`.

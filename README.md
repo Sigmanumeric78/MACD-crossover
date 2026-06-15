@@ -14,6 +14,15 @@ This project implements the same manually calculated MACD crossover strategy acr
 
 The goal is to compare implementation behavior across a vectorized Python framework, an event-driven Python trading engine, and the MetaTrader 5 Strategy Tester. The project prioritizes clear assumptions, reusable shared Python logic, and honest documentation of framework differences.
 
+## Submission Summary
+
+- This repository contains the complete take-home assignment submission.
+- The same MACD crossover strategy was implemented across vectorbt, Nautilus Trader, and MetaTrader 5.
+- MACD and EMA calculations were implemented manually.
+- EUR/USD H1 data for 2024 was used.
+- Final results and the MT5 exported report are included.
+- Repository URL: https://github.com/Sigmanumeric78/MACD-crossover.git
+
 ## Strategy Definition
 
 - Instrument: EUR/USD
@@ -208,12 +217,28 @@ The goal is implementation comparison, not perfect bit-level replication.
 - MT5 required a manual Strategy Tester run outside the Python/Linux workflow.
 - MT5 screenshot is absent; the exported HTML Strategy Tester report is included.
 
+## Final Deliverables
+
+- Source code for the vectorbt implementation.
+- Source code for the Nautilus Trader implementation.
+- MQL5 Expert Advisor for MetaTrader 5.
+- Cleaned EUR/USD H1 dataset: `data/processed/EURUSD_H1_2024_clean.csv`.
+- MT5 import CSV: `data/mt5_import/EURUSD_CUSTOM_H1_2024.csv`.
+- vectorbt result CSVs: `vectorbt_impl/vectorbt_results.csv` and `vectorbt_impl/vectorbt_trades.csv`.
+- Nautilus result CSVs: `nautilus_impl/nautilus_results.csv` and `nautilus_impl/nautilus_trades.csv`.
+- MT5 exported HTML Strategy Tester report: `mt5_impl/reports/mt5_report.html`.
+- MT5 result summary: `mt5_impl/reports/mt5_results_summary.md`.
+- Root README and framework-specific README files.
+- Development log: `MEMORY.md`.
+- PDF submission summary: `reports/MACD_Backtesting_Project_Summary.pdf`.
+
 ## AI Tool Usage Notes
 
-AI assistance was used for project scaffolding, implementation planning, code drafting, debugging, documentation drafting, and result interpretation. Verification was performed through actual terminal runs for the Python frameworks and through a manually produced MT5 Strategy Tester report.
-
-Development decisions, commands, errors, fixes, and unresolved issues are recorded in `MEMORY.md`.
+- AI coding tools were used as development support for scaffolding, implementation planning, debugging, documentation drafting, and cross-framework reasoning.
+- All major outputs were verified through actual terminal runs for vectorbt and Nautilus Trader and through a manually exported MT5 Strategy Tester report.
+- AI-generated suggestions were validated against runtime behavior and corrected where necessary.
+- Development decisions, commands, errors, fixes, and unresolved issues are recorded in `MEMORY.md`.
 
 ## Final Notes
 
-The repository is ready for GitHub submission after staging and committing. The current result files are small enough to keep in the repository for this take-home style project. The main remaining limitation is that MT5 custom-symbol history quality and bar count differ from the Python processed dataset, so cross-framework comparisons should be interpreted as implementation-level comparisons rather than exact numerical replication.
+The repository contains the completed implementation, generated reports, and documentation for submission. The current result files are small enough to keep in the repository for this take-home style project. The main remaining limitation is that MT5 custom-symbol history quality and bar count differ from the Python processed dataset, so cross-framework comparisons should be interpreted as implementation-level comparisons rather than exact numerical replication.

@@ -10,8 +10,26 @@ __pycache__/
 *.pyo
 .pytest_cache/
 
+# Python tooling caches
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Numba/cache artifacts
+.numba_cache/
+*.nbc
+*.nbi
+
 # OS files
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+.vscode/
+.idea/
 
 # Local environment files
 .env
@@ -28,7 +46,8 @@ temp/
 data/raw/*.zip
 data/raw/*.bi5
 
-# MetaTrader 5 temporary tester/cache/report artifacts
+# MetaTrader 5 compiled/generated artifacts
+*.ex5
 *.opt
 *.fxt
 *.hcc
@@ -36,6 +55,8 @@ data/raw/*.bi5
 *.ticks
 *.tmp.html
 *.tmp.htm
+
+# MetaTrader 5 temporary tester/cache/report artifacts
 tester/cache/
 tester/logs/
 MQL5/Logs/

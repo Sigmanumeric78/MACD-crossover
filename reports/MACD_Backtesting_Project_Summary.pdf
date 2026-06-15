@@ -1,0 +1,247 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 5111 >>
+stream
+0.050 0.140 0.250 rg BT /F2 19.00 Tf 1 0 0 1 46.00 800.00 Tm (MACD Crossover Strategy Backtesting) Tj ET
+0.000 0.000 0.000 rg BT /F1 10.50 Tf 1 0 0 1 46.00 778.00 Tm (Candidate: Nitin Chaturvedi) Tj ET
+0.000 0.000 0.000 rg BT /F1 10.50 Tf 1 0 0 1 46.00 763.00 Tm (Role: Junior Python Developer - Remote) Tj ET
+0.030 0.220 0.450 rg BT /F1 9.70 Tf 1 0 0 1 46.00 748.00 Tm (Repository: https://github.com/Sigmanumeric78/MACD-crossover.git) Tj ET
+0.250 0.380 0.550 RG 1.00 w 46.00 734.00 m 549.00 734.00 l S
+0.080 0.180 0.300 rg BT /F2 13.00 Tf 1 0 0 1 46.00 704.00 Tm (Project Objective) Tj ET
+0.250 0.380 0.550 RG 0.70 w 46.00 696.00 m 549.00 696.00 l S
+0.000 0.000 0.000 rg BT /F1 9.40 Tf 1 0 0 1 46.00 681.00 Tm (The objective was to implement the same trading strategy across three different backtesting) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.40 Tf 1 0 0 1 46.00 668.60 Tm (environments: vectorbt, Nautilus Trader, and MetaTrader 5. The purpose was to demonstrate) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.40 Tf 1 0 0 1 46.00 656.20 Tm (documentation reading, framework adaptation, reproducible implementation, debugging, and) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.40 Tf 1 0 0 1 46.00 643.80 Tm (comparison of results across vectorized, event-driven, and platform-native testing workflows.) Tj ET
+0.080 0.180 0.300 rg BT /F2 13.00 Tf 1 0 0 1 46.00 619.40 Tm (Strategy Summary) Tj ET
+0.250 0.380 0.550 RG 0.70 w 46.00 611.40 m 549.00 611.40 l S
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 596.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 596.40 Tm (Instrument: EUR/USD) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 584.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 584.40 Tm (Timeframe: 1-hour / H1) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 572.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 572.40 Tm (Date range: 2024-01-01 to 2024-12-31) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 560.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 560.40 Tm (Strategy type: Long-only MACD crossover) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 548.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 548.40 Tm (Entry: MACD line crosses above signal line) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 536.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 536.40 Tm (Exit: MACD line crosses below signal line) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 524.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 524.40 Tm (MACD settings: Fast EMA 12, Slow EMA 26, Signal EMA 9) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 512.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 512.40 Tm (EMA, MACD, and signal line calculations were implemented manually.) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 500.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 500.40 Tm (No built-in MACD indicator was used; Python did not use pandas .ewm\(\); MT5 did not use iMACD.) Tj ET
+0.080 0.180 0.300 rg BT /F2 13.00 Tf 1 0 0 1 46.00 477.40 Tm (Implementation Summary) Tj ET
+0.250 0.380 0.550 RG 0.70 w 46.00 469.40 m 549.00 469.40 l S
+0.120 0.120 0.120 rg BT /F2 10.50 Tf 1 0 0 1 46.00 454.40 Tm (vectorbt) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 439.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 439.40 Tm (Loaded cleaned EUR/USD H1 CSV data.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 427.60 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 427.60 Tm (Generated manual MACD crossover signals.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 415.80 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 415.80 Tm (Ran a vectorized portfolio backtest.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 404.00 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 404.00 Tm (Exported results, trades, and equity curve.) Tj ET
+0.120 0.120 0.120 rg BT /F2 10.50 Tf 1 0 0 1 46.00 392.20 Tm (Nautilus Trader) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 377.20 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 377.20 Tm (Implemented the same logic as a Nautilus strategy class.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 365.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 365.40 Tm (Used an event-driven backtest approach.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 353.60 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 353.60 Tm (Processed completed H1 bars.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 341.80 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 341.80 Tm (Exported result metrics, trades, and reconstructed equity curve.) Tj ET
+0.650 0.650 0.650 RG 0.40 w 46.00 38.00 m 549.00 38.00 l S
+0.350 0.350 0.350 rg BT /F1 8.00 Tf 1 0 0 1 46.00 24.00 Tm (MACD Crossover Strategy Backtesting) Tj ET
+0.350 0.350 0.350 rg BT /F1 8.00 Tf 1 0 0 1 504.00 24.00 Tm (Page 1 of 3) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Length 8748 >>
+stream
+0.120 0.120 0.120 rg BT /F2 10.50 Tf 1 0 0 1 46.00 800.00 Tm (MetaTrader 5) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 785.00 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 785.00 Tm (Implemented the strategy as an MQL5 Expert Advisor.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 773.20 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 773.20 Tm (Used manual EMA/MACD logic inside the EA.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 761.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 761.40 Tm (Ran MT5 Strategy Tester manually on Windows.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 749.60 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 59.00 749.60 Tm (Exported the HTML Strategy Tester report.) Tj ET
+0.080 0.180 0.300 rg BT /F2 13.00 Tf 1 0 0 1 46.00 727.80 Tm (Results Table) Tj ET
+0.250 0.380 0.550 RG 0.70 w 46.00 719.80 m 549.00 719.80 l S
+0.900 0.930 0.970 rg 46.00 682.80 514.00 22.00 re f
+0.550 0.620 0.700 RG 0.50 w 46.00 682.80 514.00 22.00 re S
+0.000 0.000 0.000 rg BT /F2 7.10 Tf 1 0 0 1 50.00 691.80 Tm (Framework) Tj ET
+0.550 0.620 0.700 RG 0.40 w 46.00 704.80 m 46.00 682.80 l S
+0.000 0.000 0.000 rg BT /F2 7.10 Tf 1 0 0 1 128.00 691.80 Tm (Data) Tj ET
+0.550 0.620 0.700 RG 0.40 w 124.00 704.80 m 124.00 682.80 l S
+0.000 0.000 0.000 rg BT /F2 7.10 Tf 1 0 0 1 198.00 691.80 Tm (Trades) Tj ET
+0.550 0.620 0.700 RG 0.40 w 194.00 704.80 m 194.00 682.80 l S
+0.000 0.000 0.000 rg BT /F2 7.10 Tf 1 0 0 1 236.00 691.80 Tm (Total Return) Tj ET
+0.550 0.620 0.700 RG 0.40 w 232.00 704.80 m 232.00 682.80 l S
+0.000 0.000 0.000 rg BT /F2 7.10 Tf 1 0 0 1 298.00 691.80 Tm (Sharpe Ratio) Tj ET
+0.550 0.620 0.700 RG 0.40 w 294.00 704.80 m 294.00 682.80 l S
+0.000 0.000 0.000 rg BT /F2 7.10 Tf 1 0 0 1 360.00 691.80 Tm (Max Drawdown) Tj ET
+0.550 0.620 0.700 RG 0.40 w 356.00 704.80 m 356.00 682.80 l S
+0.000 0.000 0.000 rg BT /F2 7.10 Tf 1 0 0 1 422.00 691.80 Tm (Notes) Tj ET
+0.550 0.620 0.700 RG 0.40 w 418.00 704.80 m 418.00 682.80 l S
+0.550 0.620 0.700 RG 0.40 w 560.00 704.80 m 560.00 682.80 l S
+0.740 0.740 0.740 RG 0.40 w 46.00 662.80 514.00 20.00 re S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 50.00 670.80 Tm (vectorbt) Tj ET
+0.740 0.740 0.740 RG 0.35 w 46.00 682.80 m 46.00 662.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 128.00 670.80 Tm (REAL_CSV) Tj ET
+0.740 0.740 0.740 RG 0.35 w 124.00 682.80 m 124.00 662.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 198.00 670.80 Tm (241) Tj ET
+0.740 0.740 0.740 RG 0.35 w 194.00 682.80 m 194.00 662.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 236.00 670.80 Tm (-0.3863%) Tj ET
+0.740 0.740 0.740 RG 0.35 w 232.00 682.80 m 232.00 662.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 298.00 670.80 Tm (-0.9415) Tj ET
+0.740 0.740 0.740 RG 0.35 w 294.00 682.80 m 294.00 662.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 360.00 670.80 Tm (-0.5761%) Tj ET
+0.740 0.740 0.740 RG 0.35 w 356.00 682.80 m 356.00 662.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 422.00 670.80 Tm (Vectorized signal portfolio) Tj ET
+0.740 0.740 0.740 RG 0.35 w 418.00 682.80 m 418.00 662.80 l S
+0.740 0.740 0.740 RG 0.35 w 560.00 682.80 m 560.00 662.80 l S
+0.985 0.985 0.985 rg 46.00 636.80 514.00 26.00 re f
+0.740 0.740 0.740 RG 0.40 w 46.00 636.80 514.00 26.00 re S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 50.00 650.80 Tm (Nautilus Trader) Tj ET
+0.740 0.740 0.740 RG 0.35 w 46.00 662.80 m 46.00 636.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 128.00 650.80 Tm (REAL_CSV) Tj ET
+0.740 0.740 0.740 RG 0.35 w 124.00 662.80 m 124.00 636.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 198.00 650.80 Tm (241) Tj ET
+0.740 0.740 0.740 RG 0.35 w 194.00 662.80 m 194.00 636.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 236.00 650.80 Tm (-0.4280%) Tj ET
+0.740 0.740 0.740 RG 0.35 w 232.00 662.80 m 232.00 636.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 298.00 650.80 Tm (-6.1039) Tj ET
+0.740 0.740 0.740 RG 0.35 w 294.00 662.80 m 294.00 636.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 360.00 650.80 Tm (-0.5740%) Tj ET
+0.740 0.740 0.740 RG 0.35 w 356.00 662.80 m 356.00 636.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 422.00 650.80 Tm (Event-driven; equity) Tj ET
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 422.00 641.80 Tm (reconstructed from closed PnL) Tj ET
+0.740 0.740 0.740 RG 0.35 w 418.00 662.80 m 418.00 636.80 l S
+0.740 0.740 0.740 RG 0.35 w 560.00 662.80 m 560.00 636.80 l S
+0.740 0.740 0.740 RG 0.40 w 46.00 610.80 514.00 26.00 re S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 50.00 624.80 Tm (MetaTrader 5) Tj ET
+0.740 0.740 0.740 RG 0.35 w 46.00 636.80 m 46.00 610.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 128.00 624.80 Tm (EURUSD_CUSTOM) Tj ET
+0.740 0.740 0.740 RG 0.35 w 124.00 636.80 m 124.00 610.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 198.00 624.80 Tm (230) Tj ET
+0.740 0.740 0.740 RG 0.35 w 194.00 636.80 m 194.00 610.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 236.00 624.80 Tm (-0.4325%) Tj ET
+0.740 0.740 0.740 RG 0.35 w 232.00 636.80 m 232.00 610.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 298.00 624.80 Tm (-1.23) Tj ET
+0.740 0.740 0.740 RG 0.35 w 294.00 636.80 m 294.00 610.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 360.00 624.80 Tm (-0.65%) Tj ET
+0.740 0.740 0.740 RG 0.35 w 356.00 636.80 m 356.00 610.80 l S
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 422.00 624.80 Tm (Manual Strategy Tester run; 16%) Tj ET
+0.000 0.000 0.000 rg BT /F1 7.10 Tf 1 0 0 1 422.00 615.80 Tm (history quality and 6106 bars) Tj ET
+0.740 0.740 0.740 RG 0.35 w 418.00 636.80 m 418.00 610.80 l S
+0.740 0.740 0.740 RG 0.35 w 560.00 636.80 m 560.00 610.80 l S
+0.080 0.180 0.300 rg BT /F2 13.00 Tf 1 0 0 1 46.00 586.80 Tm (Key Observations) Tj ET
+0.250 0.380 0.550 RG 0.70 w 46.00 578.80 m 549.00 578.80 l S
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 563.80 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 563.80 Tm (The strategy was not profitable over the selected EUR/USD H1 2024 period.) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 551.80 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 551.80 Tm (vectorbt and Nautilus produced the same number of trades, but metrics differed due to vectorized) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 539.80 Tm (versus event-driven execution and equity calculation assumptions.) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 527.80 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 527.80 Tm (MT5 produced fewer trades because the Strategy Tester processed 6106 bars compared to the 6250) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 515.80 Tm (rows in the Python processed CSV.) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 503.80 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 503.80 Tm (Differences across frameworks are expected because each engine handles fills, bar processing,) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 491.80 Tm (spread, execution timing, and reporting differently.) Tj ET
+0.080 0.180 0.300 rg BT /F2 13.00 Tf 1 0 0 1 46.00 473.80 Tm (Issues Encountered and Resolved) Tj ET
+0.250 0.380 0.550 RG 0.70 w 46.00 465.80 m 549.00 465.80 l S
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 46.00 450.80 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 59.00 450.80 Tm (Real market data was initially missing; resolved by using ForexSB EURUSD60.csv.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 46.00 438.90 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 59.00 438.90 Tm (ForexSB CSV had no header; resolved with a fallback parser.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 46.00 427.00 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 59.00 427.00 Tm (vectorbt required handling NUMBA_DISABLE_JIT=1.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 46.00 415.10 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 59.00 415.10 Tm (Nautilus required adapting to its event-driven API and FX margin account setup.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 46.00 403.20 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 59.00 403.20 Tm (MT5 setup was completed on Windows for reliability.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 46.00 391.30 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.90 Tf 1 0 0 1 59.00 391.30 Tm (MT5 screenshot was not included, but the exported HTML report is included.) Tj ET
+0.650 0.650 0.650 RG 0.40 w 46.00 38.00 m 549.00 38.00 l S
+0.350 0.350 0.350 rg BT /F1 8.00 Tf 1 0 0 1 46.00 24.00 Tm (MACD Crossover Strategy Backtesting) Tj ET
+0.350 0.350 0.350 rg BT /F1 8.00 Tf 1 0 0 1 504.00 24.00 Tm (Page 2 of 3) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Length 2476 >>
+stream
+0.080 0.180 0.300 rg BT /F2 13.00 Tf 1 0 0 1 46.00 794.00 Tm (AI Tool Usage) Tj ET
+0.250 0.380 0.550 RG 0.70 w 46.00 786.00 m 549.00 786.00 l S
+0.000 0.000 0.000 rg BT /F1 9.40 Tf 1 0 0 1 46.00 771.00 Tm (AI coding tools were used for scaffolding, implementation planning, debugging, documentation,) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.40 Tf 1 0 0 1 46.00 758.60 Tm (and cross-framework reasoning. Human verification was performed by running terminal backtests) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.40 Tf 1 0 0 1 46.00 746.20 Tm (and MT5 Strategy Tester manually. Incorrect or incomplete AI suggestions were validated against) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.40 Tf 1 0 0 1 46.00 733.80 Tm (actual runtime errors and fixed iteratively.) Tj ET
+0.080 0.180 0.300 rg BT /F2 13.00 Tf 1 0 0 1 46.00 709.40 Tm (Final Deliverables) Tj ET
+0.250 0.380 0.550 RG 0.70 w 46.00 701.40 m 549.00 701.40 l S
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 686.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 686.40 Tm (GitHub repository with code and documentation.) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 674.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 674.40 Tm (vectorbt implementation and results.) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 662.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 662.40 Tm (Nautilus Trader implementation and results.) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 650.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 650.40 Tm (MT5 MQL5 Expert Advisor and exported Strategy Tester report.) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 46.00 638.40 Tm (-) Tj ET
+0.000 0.000 0.000 rg BT /F1 9.00 Tf 1 0 0 1 59.00 638.40 Tm (Project README and framework-specific notes.) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 626.40 Tm (This summary is intended as a concise attachment for HR/recruitment review. Full implementation) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 614.60 Tm (details, commands, errors, fixes, and validation notes are documented in the repository README files) Tj ET
+0.000 0.000 0.000 rg BT /F1 8.80 Tf 1 0 0 1 46.00 602.80 Tm (and MEMORY.md.) Tj ET
+0.650 0.650 0.650 RG 0.40 w 46.00 38.00 m 549.00 38.00 l S
+0.350 0.350 0.350 rg BT /F1 8.00 Tf 1 0 0 1 46.00 24.00 Tm (MACD Crossover Strategy Backtesting) Tj ET
+0.350 0.350 0.350 rg BT /F1 8.00 Tf 1 0 0 1 504.00 24.00 Tm (Page 3 of 3) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 5 0 R >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+10 0 obj
+<< /Type /Pages /Kids [7 0 R 8 0 R 9 0 R] /Count 3 >>
+endobj
+11 0 obj
+<< /Type /Catalog /Pages 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000000228 00000 n 
+0000005390 00000 n 
+0000014189 00000 n 
+0000016716 00000 n 
+0000016863 00000 n 
+0000017010 00000 n 
+0000017157 00000 n 
+0000017227 00000 n 
+trailer
+<< /Size 12 /Root 11 0 R >>
+startxref
+17278
+%%EOF
